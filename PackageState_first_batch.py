@@ -6,7 +6,7 @@ if __name__ == '__main__':
 
     thisdict = {}
 
-    f = open("Contents-amd64", "r")
+    f = open("mylist", "r")
     for l in f:
         packages_list = l.split(None, 1)[1]
         for p in packages_list.split(','):
